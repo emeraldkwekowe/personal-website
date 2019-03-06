@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
+import {Splash} from './splash.js'; 
 
-
-class App extends Component {
+class Emerald extends Component {
   render() {
     return (
       <div className="App">
-       <h1>Emerald's site and no one else.</h1>
+        <Splash />
       </div>
     );
   }
 }
 
-export default App;
+export default Emerald;
