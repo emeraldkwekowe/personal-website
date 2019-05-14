@@ -16,3 +16,35 @@ body{
     margin:0 auto;
     width:180px;
 }
+.mainv{
+    width:100%;
+    height:auto;
+    min-height:1000px;
+    background:#fff;
+}
+.RightSide{
+    width:40%;
+    height:100%;
+    position: fixed;
+    right:0;
+    bottom:0;
+}
+.RightSide img{
+    position: absolute;
+}
+img.path1{
+    width:104%;
+    bottom:-3%;
+    right:-4%;
+}
+img.path2{
+    width:129%;
+    top:-13%;
+    right:-49%;
+}
+img.path3{
+    width:110%;
+    top:-5%;
+    right:19%;
+    z-index:-1;
+}

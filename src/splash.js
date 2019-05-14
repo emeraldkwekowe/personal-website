@@ -5,7 +5,7 @@ export class Splash extends Component {
     return (
     <div className="main">
         <img src="images/bg-home.png" class="bg-home"/>
-        <img src="images/emain.png" className="emain"/>
+        <img src="images/emain.png" className="animated zoomIn emain"/>
     </div>  
     );
   }
